@@ -51,6 +51,7 @@ export default class Recipe {
       "cup",
       "pound",
     ];
+    const units = [...unitShort, "kg", "g"];
 
     const newIngredients = this.ingredients.map((el) => {
       // uniform units
@@ -64,7 +65,7 @@ export default class Recipe {
 
       // parse ingredients into count, unit and ingredients
       const arrIng = ingredient.split(" ");
-      const unitIndex = arrIng.findIndex((el2) => unitShort.includes(el2));
+      const unitIndex = arrIng.findIndex((el2) => units.includes(el2));
       let objIng;
 
       if (unitIndex > -1) {
