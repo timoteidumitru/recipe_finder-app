@@ -22,6 +22,8 @@ const state = {};
 /**
  * SEARCH CONTROLLER
  **/
+// const query = "47025"; //TODO
+
 const controlSearch = async () => {
   // 1) Get the query from view
   const query = searchView.getInput(); //TODO
