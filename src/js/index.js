@@ -17,7 +17,6 @@ import { elements, renderLoader, clearLoader } from "./views/base";
 */
 
 const state = {};
-// window.state = state;
 
 /**
  * SEARCH CONTROLLER
@@ -209,5 +208,3 @@ elements.recipe.addEventListener("click", (e) => {
     controlLikes();
   }
 });
-
-window.l = new List();
