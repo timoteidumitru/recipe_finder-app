@@ -652,4 +652,38 @@ body {
     width: 6em;
     height: 6em;
   }
+  .results__link:link,
+  .results__link:visited,
+  .likes__link:link,
+  .likes__link:visited {
+    padding: 0;
+    display: block;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    box-shadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  .btn-inline {
+    font-size: 2.2rem;
+  }
+  .btn-inline svg {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+  .results__fig,
+  .likes__fig {
+    border-radius: 0%;
+    height: 10rem;
+  }
+  .results__data {
+    text-align: center;
+  }
+  .results__name,
+  .likes__name {
+    font-size: 2rem;
+  }
+  .results__author,
+  .likes__author {
+    font-size: 1.4rem;
+  }
 }
