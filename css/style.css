@@ -636,7 +636,11 @@ body {
     transition: all 0.3s;
     order: 3;
     position: relative;
-    margin: 2em;
+    margin: 1em auto;
+    width: 90%;
+  }
+  .search__field {
+    font-size: 2em;
   }
   .likes {
     position: relative;
@@ -658,7 +662,7 @@ body {
   .likes__link:visited {
     padding: 0;
     display: block;
-    max-width: 90%;
+    max-width: 96%;
     margin: 0 auto;
     margin-bottom: 2em;
     box-shadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.75);
@@ -672,8 +676,9 @@ body {
   }
   .results__fig,
   .likes__fig {
-    border-radius: 0%;
     height: 10rem;
+    border-radius: 10px 10px 0 0;
+    margin: 0 auto;
   }
   .results__data {
     text-align: center;
@@ -685,5 +690,17 @@ body {
   .results__author,
   .likes__author {
     font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 345px) {
+  .search {
+    width: 100%;
+  }
+  .search__field {
+    font-size: 1.7em;
+  }
+  .header__logo {
+    height: 3.5rem;
   }
 }
