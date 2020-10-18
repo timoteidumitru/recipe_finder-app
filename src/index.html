@@ -57,7 +57,10 @@
       </header>
 
       <div class="results">
-        <ul class="results__list">
+        <ul
+          class="results__list"
+          onclick="smoothScroll(document.getElementById('second'))"
+        >
           <!--
                 <li>
                     <a class="results__link results__link--active" href="#23456">
@@ -85,7 +88,7 @@
         </div>
       </div>
 
-      <div class="recipe">
+      <div class="recipe" id="second">
         <!--
             <figure class="recipe__fig">
                 <img src="img/test-1.jpg" alt="Tomato" class="recipe__img">
