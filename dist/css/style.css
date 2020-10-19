@@ -691,6 +691,16 @@ body {
   .likes__author {
     font-size: 1.4rem;
   }
+  .shopping__count input {
+    font-size: 2em;
+    width: 3em;
+  }
+  .shopping__count p {
+    font-size: 1.7rem;
+  }
+  .shopping__description {
+    font-size: 1.8rem;
+  }
 }
 
 @media only screen and (max-width: 345px) {
