@@ -717,4 +717,11 @@ body {
     padding: 7em 1em 1em 1em;
     justify-content: space-between;
   }
+  .shopping__count input {
+    font-size: 1.6em;
+    width: 2em;
+  }
+  .shopping__description {
+    font-size: 1.6rem;
+  }
 }
