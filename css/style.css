@@ -25,7 +25,7 @@ body {
   font-weight: 400;
   line-height: 1.6;
   color: #655a56;
-  background-image: linear-gradient(to right bottom, #fbdb89, #f48982);
+  background-image: linear-gradient(to right bottom, #5389b0, #061622);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: calc(100vh - 2 * 4vw);
@@ -211,7 +211,7 @@ body {
 }
 .header__logo {
   margin-left: 4rem;
-  height: 4.5rem;
+  height: 6.5rem;
   display: block;
 }
 
@@ -620,9 +620,9 @@ body {
   }
   .header__logo {
     margin-left: 4rem;
-    height: 4.5rem;
+    height: 5.5rem;
     display: block;
-    width: 28%;
+    width: 35%;
     order: 1;
     margin: 1em 3em;
     position: relative;
@@ -711,7 +711,7 @@ body {
     font-size: 1.7em;
   }
   .header__logo {
-    height: 3.5rem;
+    height: 5.5rem;
   }
   .recipe__details {
     padding: 7em 1em 1em 1em;
