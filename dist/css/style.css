@@ -12,6 +12,20 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.scrollToTopBtn {
+  width: 35px;
+  height: 35px;
+  /* place it at the bottom right corner */
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  /* keep it at the top of everything else */
+  z-index: 100;
+  /* hide it at first */
+  display: none;
 }
 
 @media only screen and (max-width: 68.75em) {
