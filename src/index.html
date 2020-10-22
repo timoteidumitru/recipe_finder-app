@@ -16,7 +16,7 @@
   <body>
     <div class="container">
       <header class="header" id="top">
-        <img src="img/logo.png" alt="Logo" class="header__logo" />
+        <img src="img/logo.png" alt="Logo" class="header__logo" id="brand" />
         <form class="search">
           <input
             type="text"
@@ -57,6 +57,13 @@
         <ul class="shopping__list" id="third"></ul>
       </div>
     </div>
-    <button class="scrollToTopBtn">^</button>
+    <div
+      class="top-link show"
+      onclick="smoothScroll(document.getElementById('brand'))"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+        <path d="M12 6H0l6-6z" />
+      </svg>
+    </div>
   </body>
 </html>
