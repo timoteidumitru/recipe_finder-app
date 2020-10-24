@@ -125,6 +125,18 @@ const controlList = () => {
   });
 };
 
+// handle clear the shopping list
+
+elements.clearButton.addEventListener("click", (e) => {
+  if (e.target.matches(".shopping-clear-button")) {
+    // delete items from state
+    state.list = "";
+
+    // clear the shopping list items UI
+    listView.clearList();
+  }
+});
+
 // handle delete and update list item events
 elements.shopping.addEventListener("click", (e) => {
   const id = e.target.closest(".shopping__item").dataset.itemid;

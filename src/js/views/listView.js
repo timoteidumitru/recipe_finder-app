@@ -17,7 +17,13 @@ export const renderItem = (item) => {
   `;
   elements.shopping.insertAdjacentHTML("beforeend", markup);
 };
+
 export const deleteItem = (id) => {
   const item = document.querySelector(`[data-itemid="${id}"]`);
   if (item) item.parentElement.removeChild(item);
+};
+
+export const clearList = () => {
+  const item = document.querySelectorAll(".shopping__item");
+  if (item) elements.shopping.innerHTML = "";
 };

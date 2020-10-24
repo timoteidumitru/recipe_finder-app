@@ -9,6 +9,7 @@ export const elements = {
   likesMenu: document.querySelector(".likes__field"),
   likesList: document.querySelector(".likes__list"),
   topButton: document.querySelector("#brand"),
+  clearButton: document.querySelector(".shopping-clear-button"),
 };
 
 export const elementStrings = {
