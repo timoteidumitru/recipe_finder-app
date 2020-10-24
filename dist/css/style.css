@@ -70,6 +70,26 @@ body {
   background-color: #e8e8e8;
 }
 
+.shopping-clear-button {
+  padding: 0.6em;
+  width: 52%;
+  margin: 1em auto;
+  border: 0;
+  border-radius: 7px;
+  color: white;
+  background-image: linear-gradient(to right bottom, #5389b0, #061622);
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.35em;
+  transition: transform 1s;
+}
+
+.shopping-clear-button:hover {
+  transform: scale(1.1);
+  transition: transform 0.7s;
+}
+
 .hide:hover svg {
   fill: #000000;
 }
