@@ -16,6 +16,10 @@ export const renderItem = (item) => {
   </li>
   `;
   elements.shopping.insertAdjacentHTML("beforeend", markup);
+
+  if (item) {
+    document.querySelector(".shopping-clear-button").style.display = "block";
+  }
 };
 
 export const deleteItem = (id) => {
@@ -26,4 +30,5 @@ export const deleteItem = (id) => {
 export const clearList = () => {
   const item = document.querySelectorAll(".shopping__item");
   if (item) elements.shopping.innerHTML = "";
+  document.querySelector(".shopping-clear-button").style.display = "none";
 };

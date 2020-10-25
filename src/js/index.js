@@ -27,15 +27,11 @@ const controlSearch = async () => {
   // 1) Get the query from view
   const query = searchView.getInput(); //TODO
 
-  // if (!query) query = "47025";
-  console.log(query);
-
   if (query) {
     // 2) New search object and add to state
     state.search = new Search(query);
 
     // 3) Prepare UI for results
-
     searchView.clearInput();
     searchView.clearResults();
     renderLoader(elements.searchRes);
@@ -126,7 +122,6 @@ const controlList = () => {
 };
 
 // handle clear the shopping list
-
 elements.clearButton.addEventListener("click", (e) => {
   if (e.target.matches(".shopping-clear-button")) {
     // delete items from state
@@ -136,6 +131,11 @@ elements.clearButton.addEventListener("click", (e) => {
     listView.clearList();
   }
 });
+
+// handle the display of clear list button
+window.onload = (event) => {
+  document.querySelector(".shopping-clear-button").style.display = "none";
+};
 
 // handle delete and update list item events
 elements.shopping.addEventListener("click", (e) => {
