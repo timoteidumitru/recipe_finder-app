@@ -229,11 +229,11 @@ body {
   outline: none;
 }
 .btn-tiny:hover svg {
-  fill: #00b126;
+  fill: #da1212;
   transform: translateY(-1px);
 }
 .btn-tiny:active svg {
-  fill: #059400;
+  fill: #d60505;
   transform: translateY(0);
 }
 .btn-tiny:not(:last-child) {
