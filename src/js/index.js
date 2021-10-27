@@ -21,11 +21,11 @@ const state = {};
 /**
  * SEARCH CONTROLLER
  **/
-// const query = "47025"; //TODO
+// const query = "47025";
 
 const controlSearch = async () => {
   // 1) Get the query from view
-  const query = searchView.getInput(); //TODO
+  const query = searchView.getInput();
 
   if (query) {
     // 2) New search object and add to state
